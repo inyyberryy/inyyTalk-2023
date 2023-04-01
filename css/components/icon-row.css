@@ -1,0 +1,15 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-row__icon {
+    display: flex;
+    flex-direction: column; /* column은 다음 줄에 오는 거! */
+    align-items: center;
+}
+.icon-row__icon i {  /* 해당 클래스 안에 있는 i에만 적용해야함 */
+    font-size: 35px;
+}
+.icon-row__icon span {
+    margin-top: 17px;
+}

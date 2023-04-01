@@ -1,0 +1,11 @@
+.badge {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;  /* 사각형 길이의 반으로 주면 원이 됨 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}

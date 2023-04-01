@@ -1,0 +1,7 @@
+/* variables.css를 styles.css에서 꼭! import 해줘야지 사용 가능 */
+:root {
+    --pink: #fbcfc9;
+    --horizontal-space: 25px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
+    --gray: rgba(0, 0, 0, 0.5);
+}

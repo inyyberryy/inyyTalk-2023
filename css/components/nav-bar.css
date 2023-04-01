@@ -1,0 +1,46 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box; /* box 사이즈 늘리는 것을 막음 */
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    position: relative; /* 빨간 1 동그라미랑 관련 */
+    color: #2e363e;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;  /* 사각형 길이의 반으로 주면 원이 됨 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600; 
+    position: absolute;  /* 메세지 아이콘 위에 숫자가 올 수 있게! */
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__dot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: flex;
+    position: absolute;
+    left: 35px;
+}
+
+
